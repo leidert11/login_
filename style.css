@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://10wallpaper.com/wallpaper/1366x768/1311/line_light_spots_dark-design_HD_wallpaper_1366x768.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+H1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ; */
+    width: 285px;
+    height: 460px;
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 21px;
+    font-weight: 100;
+    border-radius: 10px;
+    background-color: rgba(249, 246, 242, 0.464);
+    border: 1px solid;
+    padding: 2rem;
+    padding-top: 2rem;
+    border: 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#text-container{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#entrar{
+   height: 2rem;
+   width: 5rem;
+   margin-top: 2rem;
+}
+.datos{
+    margin-top: 12px;
+    font-weight: bold;
+}
+.boton{
+    text-align: center;
+}
+.input-login{
+    border: 1px solid;
+    margin-top: 1rem;
+    width: 220px;
+    height: 2.4rem;
+    border-radius: 5px;
+}
+#entrar{
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(98, 61, 233);
+    color: white;
+    border: 0px;
+}
+#check{
+
+    margin-left: 22px;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+#check-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#olvidar-contraseña{
+    font-weight: 400;
+    color:rgb(98, 61, 233) ;
+    font-size: 15px;
+}
+.password{
+    padding-top: 2rem;
+}
